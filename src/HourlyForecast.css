@@ -1,0 +1,45 @@
+.hourly-weather-container {
+    background-color: #61876E;
+    width: 90%; 
+    max-width: 850px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 69px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.18);
+
+}
+
+
+.hourly-weather-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.hourly-card {
+    background-color: #A6BB8D;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hourly-card h3 {
+    display: block;
+    text-align: center;
+    width: 90px;
+
+}
+
+.hourly-card p{
+    font-size: 20px;
+    font-weight: 500;
+}
